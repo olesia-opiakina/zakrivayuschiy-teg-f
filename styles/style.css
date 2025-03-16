@@ -148,6 +148,7 @@
   overflow: hidden;
   word-wrap: break-word;
   background: transparent;
+  border: 2px solid #000;
   background-color: var(--bg-color);
   cursor: pointer;
 }
