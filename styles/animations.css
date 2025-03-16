@@ -16,13 +16,11 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--border-color);
-  transition: border 0.3s ease;
 }
 
 .button:focus {
   box-shadow: 2px 2px 0 0 var(--border-color);
   outline: none;
-  transition: box-shadow 0.3s ease;
 }
 
 .button:before {

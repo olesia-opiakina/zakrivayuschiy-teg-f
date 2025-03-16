@@ -42,9 +42,13 @@
   width: var(--main-width);
 }
 
-.header__link {
+.header__logo {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-decoration: none;
+}
+
+.header__logo:focus {
+  outline: none;
 }
 
 .header__title {
@@ -132,6 +136,7 @@
   background: transparent;
   cursor: pointer;
   block-size: 38px;
+  transition: border 0.3s ease;
 }
 
 .card__like-button {
@@ -151,6 +156,7 @@
   border: 2px solid #000;
   background-color: var(--bg-color);
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .button__text {
@@ -196,7 +202,6 @@
   grid-template-columns: min-content 1fr;
   gap: 30px 20px;
   width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
-  max-height: 194px;
   padding: 30px 41px;
 }
 
