@@ -154,6 +154,7 @@
 }
 
 .button__text {
+  position: relative;
   color: var(--accent-color);
   font-family: var(--pressStart2P-font);
   font-size: var(--accent-font-size);
@@ -169,6 +170,7 @@
 }
 
 .floppy {
+  position: relative;
   align-self: center;
   width: 28px;
   height: 28px;
